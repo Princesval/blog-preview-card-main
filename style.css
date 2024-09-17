@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+/* 
+- Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%) 
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
+    background-color: hsl(47, 88%, 63%);
+}
+
+main {
+    max-width: 380px;
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+    box-shadow: 8px 7px 0px black;;
+}
+
+div#container img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    font-weight: 900;
+    padding: 8px 10px;
+}
+
+p#date {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 7%);
+}
+
+h1 {
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+p#info {
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 15px;
+}
+
+div#container-foto-nome {
+    display: flex;
+    align-items: center;
+}
+
+div#container-foto-nome img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+div#container-foto-nome p{
+    font-weight: 800;
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+    color: black;
+}
+
+footer a {
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+@media (max-width: 425px) {
+    main {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+}
+
+
+
